@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./img/iPhone-11-the-verge-review.jpg);
+    background-size: 1280px;
+    background-position: center 60%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    left: 26px;
+    top: -10px;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  .calc-wrapper {
+    margin: 0 auto;
+    margin-top: 10px;
+    max-width: 340px;
+  }
+  .calc-wrapper__title {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .calc-wrapper__body {
+    margin: 0 auto;
+    border-radius: 10px;
+
+  }
+  header{
+    width: 90%;
+    margin: auto;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    
+  }
+  header img:first-child{
+    width: 90px;
+  }
+ .contact{
+  width: 15px;
+ }
+  header .left{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .time{
+    color: #fff;
+    margin-right: 10px;
+    font-family:  sans-serif;
+  }
+
+  .calc-wrapper__space {
+    display: grid;
+    justify-content: end;
+    align-items: end;
+    background-color: #000000;
+    height: 200px;
+    line-height: 80px;
+    font-size: 55px;
+    max-width: 340px;
+    overflow: hidden;
+    padding: 20px 25px;
+    /* padding-top:100px; */
+    color: white;
+    text-align: right;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+  .calc-wrapper__content {
+    padding: 95px 25px 40px 25px;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
+    grid-auto-rows: 65px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+  }
+  button:first-child {
+    grid-column: 1/2;
+  }
+  button.zero {
+    grid-column: 1/3;
+    border-radius: 20% / 50%;
+    width: 140px;
+    height: 65px;
+    text-align: left;
+    padding-left: 25px;
+  }
+  
+  button {
+    width: 65px;
+    height: 65px;
+    border: none;
+    background-color: #3b3b3b;
+    cursor: pointer;
+    font-size: 1.725rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    transition:  0.1s;
+    border-radius:  50%;
+    margin: 0 auto;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  button:active {
+    background-color: #f5a52d;
+    color: white;
+  }
+
+
+  .btn__img{
+    width:  1.525rem;
+  }
+
+  .light{
+    background-color: #a3a0a0;
+    color: #000000;
+  }
+
+
+  .collm{
+    filter: invert(100%);
+    width: 18px;
+  }
+  .cross{
+    width: 13px;
+  }
+
+  .right__side{
+    background-color: chocolate;
+  }
